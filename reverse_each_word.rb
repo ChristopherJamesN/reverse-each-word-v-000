@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
   end
   new_sentence = String.new
   new_array.each_with_index do |i,index|
-    new_sentence<<" #{i}"
+    new_sentence<<"#{i} "
   end
   new_sentence
 end
